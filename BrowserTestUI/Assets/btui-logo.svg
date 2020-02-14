@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="89.644707mm"
+   height="84.934181mm"
+   viewBox="0 0 89.644707 84.934181"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="btui-logo.svg">
+  <defs
+     id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4528"
+       osb:paint="gradient">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop4524" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop4526" />
+    </linearGradient>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="15.181833"
+     inkscape:cy="132.91212"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-68.159166,-102.08774)">
+    <ellipse
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.26499999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path4522"
+       ry="39.120537"
+       rx="40.443455"
+       cy="141.84077"
+       cx="109.23512" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.26499999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path4522-6"
+       ry="39.120537"
+       rx="40.443455"
+       cy="138.81696"
+       cx="109.99107"
+       d=""
+       inkscape:connector-curvature="0" />
+    <ellipse
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.459;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path4522-8"
+       ry="39.223602"
+       rx="28.262295"
+       cy="141.84077"
+       cx="110.18005" />
+    <ellipse
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.423;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path4522-8-2"
+       ry="39.39151"
+       rx="13.122169"
+       cy="141.84077"
+       cx="109.6131" />
+    <ellipse
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.429;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path4522-8-2-0"
+       ry="40.049999"
+       rx="13.119201"
+       cy="-109.14062"
+       cx="141.4628"
+       transform="rotate(90)" />
+    <ellipse
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.478;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path4522-8-7"
+       ry="40.631683"
+       rx="28.252964"
+       cy="-109.32961"
+       cx="142.59673"
+       transform="rotate(90)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#f8c100;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="91.848213"
+       y="186.25298"
+       id="text4619"><tspan
+         sodipodi:role="line"
+         id="tspan4617"
+         x="91.848213"
+         y="186.25298"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:50.79999924px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#f8c100;fill-opacity:1;stroke-width:0.26458332">UI</tspan></text>
+  </g>
+</svg>
