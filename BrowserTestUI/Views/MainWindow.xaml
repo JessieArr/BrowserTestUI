@@ -7,13 +7,25 @@
         x:Class="BrowserTestUI.Views.MainWindow"
         Icon="/Assets/btui-logo.ico"
         Title="BrowserTestUI">
-
+  <DockPanel>
     <Design.DataContext>
-        <vm:MainWindowViewModel/>
+      <vm:MainWindowViewModel/>
     </Design.DataContext>
-
-  <StackPanel>
-    <TextBlock Text="{Binding Greeting}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-    <Button Click="OnButtonClick" Content="Test"></Button>
-  </StackPanel>
+    
+    <Menu DockPanel.Dock="Top">
+      <MenuItem Header="_File">
+        <MenuItem Header="_Open..." Command="{Binding OpenFile}"/>
+        <Separator/>
+        <MenuItem Header="_Exit" Command="{Binding Exit}"/>
+      </MenuItem>
+      <MenuItem Header="_Edit">
+        <MenuItem Header="Copy"/>
+        <MenuItem Header="Paste"/>
+      </MenuItem>
+    </Menu>
+    <StackPanel>
+      <TextBlock Text="{Binding Greeting}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+      <Button Click="OnButtonClick" Content="Test"></Button>
+    </StackPanel>
+  </DockPanel>
 </Window>
