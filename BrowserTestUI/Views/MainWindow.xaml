@@ -25,7 +25,7 @@
     </Menu>
     <StackPanel>
       <TextBlock Text="{Binding Greeting}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-      <Button Click="OnButtonClick" Content="Test"></Button>
+      <Button Command="{Binding RunTest}" Content="Test"></Button>
     </StackPanel>
   </DockPanel>
 </Window>

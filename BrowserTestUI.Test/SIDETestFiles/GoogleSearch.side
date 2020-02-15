@@ -7,21 +7,21 @@
     "id": "eade5d20-ff98-4ad5-969d-086ebcdbf8ad",
     "name": "Search for Testing",
     "commands": [{
-      "id": "843ad57f-0b08-4405-84b3-c5a326f9a605",
+      "id": "089e8228-2543-474d-9f23-b788b79784fb",
       "comment": "",
       "command": "open",
       "target": "/",
       "targets": [],
       "value": ""
     }, {
-      "id": "f9d896f6-b375-4f4a-be16-5bd626fc5e61",
+      "id": "192999d3-d1d7-46da-8889-2416f28f8148",
       "comment": "",
       "command": "setWindowSize",
       "target": "1920x1040",
       "targets": [],
       "value": ""
     }, {
-      "id": "17ea0eb3-8ea0-4ded-a13e-7300233e1390",
+      "id": "38acaa07-282a-4bcc-ab30-6f67343e5385",
       "comment": "",
       "command": "click",
       "target": "name=q",
@@ -34,7 +34,7 @@
       ],
       "value": ""
     }, {
-      "id": "8875d03e-c8e3-49ea-983d-45bf8a6c8a04",
+      "id": "61f91e07-1ea0-4e2a-9ebe-24dc5367a21c",
       "comment": "",
       "command": "type",
       "target": "name=q",
@@ -47,30 +47,20 @@
       ],
       "value": "testing"
     }, {
-      "id": "8bb7e40f-8947-48d2-bb72-992410c26d35",
+      "id": "a70c3fd0-f5a6-45de-994d-6616eb200ef1",
       "comment": "",
       "command": "click",
-      "target": "css=#tsf > div:nth-child(2)",
+      "target": "name=btnK",
       "targets": [
-        ["css=#tsf > div:nth-child(2)", "css:finder"],
-        ["xpath=//form[@id='tsf']/div[2]", "xpath:idRelative"],
-        ["xpath=//form/div[2]", "xpath:position"]
+        ["name=btnK", "name"],
+        ["css=center:nth-child(2) > .gNO89b", "css:finder"],
+        ["xpath=//input[@name='btnK']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div[2]/div[2]/div[2]/center/input", "xpath:idRelative"],
+        ["xpath=//center/input", "xpath:position"]
       ],
       "value": ""
     }, {
-      "id": "d1ce849c-9313-440b-876a-7dd37f6dd780",
-      "comment": "",
-      "command": "click",
-      "target": "css=center:nth-child(1) > .gNO89b",
-      "targets": [
-        ["css=center:nth-child(1) > .gNO89b", "css:finder"],
-        ["xpath=(//input[@name='btnK'])[2]", "xpath:attributes"],
-        ["xpath=//form[@id='tsf']/div[2]/div/div[3]/center/input", "xpath:idRelative"],
-        ["xpath=//div[3]/center/input", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "bd1024b5-c353-4926-8022-c0e89e69b4a8",
+      "id": "4809ec71-8391-4ec8-9c97-19f90592f4e2",
       "comment": "",
       "command": "click",
       "target": "css=.bkWMgd:nth-child(1) .g:nth-child(1) .LC20lb",
@@ -82,7 +72,7 @@
       ],
       "value": ""
     }, {
-      "id": "e34834ae-07ab-454e-acbc-731262d000aa",
+      "id": "02719726-3c69-4434-8356-efc2dbc1e1a9",
       "comment": "",
       "command": "close",
       "target": "",
