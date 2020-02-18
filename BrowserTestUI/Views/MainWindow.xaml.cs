@@ -23,10 +23,5 @@ namespace BrowserTestUI.Views
         {
             AvaloniaXamlLoader.Load(this);
         }
-
-        private void OnButtonClick(object sender, RoutedEventArgs e)
-        {
-            _SeleniumService.RunFirefoxTest();
-        }
     }
 }

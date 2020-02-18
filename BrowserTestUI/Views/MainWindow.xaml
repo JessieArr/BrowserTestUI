@@ -25,7 +25,13 @@
     </Menu>
     <StackPanel>
       <TextBlock Text="{Binding Greeting}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-      <Button Command="{Binding RunTest}" Content="Test"></Button>
+      <StackPanel Orientation="Horizontal">
+        <Button Command="{Binding RunChromeTest}" Content="Chrome"></Button>
+        <Button Command="{Binding RunFirefoxTest}" Content="Firefox"></Button>
+        <Button Command="{Binding RunInternetExplorerTest}" Content="Internet Explorer"></Button>
+        <Button Command="{Binding RunEdgeTest}" Content="Edge"></Button>
+        <Button Command="{Binding RunSafariTest}" Content="Safari"></Button>
+      </StackPanel>
     </StackPanel>
   </DockPanel>
 </Window>

@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "BrowserTestUI.CLI": {
+      "commandName": "Project",
+      "commandLineArgs": "\"..\\..\\..\\..\\BrowserTestUI.Test\\SIDETestFiles\\GoogleSearch.side\""
+    }
+  }
+}

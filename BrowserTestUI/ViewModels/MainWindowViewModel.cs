@@ -1,5 +1,6 @@
 ﻿using Avalonia;
 using Avalonia.Controls;
+using BrowserTestUI.Core;
 using BrowserTestUI.Core.Selenium;
 using BrowserTestUI.Core.Selenium.IDE;
 using System;
@@ -44,15 +45,40 @@ namespace BrowserTestUI.ViewModels
             Environment.Exit(0);
         }
 
-        public void RunTest()
+        public void RunChromeTest()
         {
-            if(CurrentFile == null)
+            RunTest(BrowserEnum.Chrome);
+        }
+
+        public void RunFirefoxTest()
+        {
+            RunTest(BrowserEnum.Firefox);
+        }
+
+        public void RunInternetExplorerTest()
+        {
+            RunTest(BrowserEnum.InternetExplorer);
+        }
+
+        public void RunEdgeTest()
+        {
+            RunTest(BrowserEnum.Edge);
+        }
+
+        public void RunSafariTest()
+        {
+            RunTest(BrowserEnum.Safari);
+        }
+
+        private void RunTest(BrowserEnum browser)
+        {
+            if (CurrentFile == null)
             {
-                _SeleniumService.RunFirefoxTest();
+                _SeleniumService.RunSimpleTest(browser);
             }
             else
             {
-                _SeleniumService.RunSIDETestSuite(CurrentFile);
+                _SeleniumService.RunSIDETestSuite(CurrentFile, browser);
             }
         }
     }    
